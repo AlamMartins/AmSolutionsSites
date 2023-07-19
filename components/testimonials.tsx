@@ -31,7 +31,7 @@ export default function Testimonials() {
     </div>
 
     <div class="mb-4">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="confirm-password">Confirm Password</label>
+        <label className="block text-gray-700 text-sm font-bold mb-2" for="confirm-password">Confirm Password</label>
         {/* <input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" type="password" id="confirm-password" name="confirm-password" placeholder="********"> */}
         {/* <input className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" type="password" id="confirm-password" name="confirm-password" placeholder="********"> */}
     </div>
