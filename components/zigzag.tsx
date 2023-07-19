@@ -66,7 +66,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Proteção Virtual</div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2 text-yellow-100">Proteção Virtual</div>
                   <h3 className="h3 mb-3">Como está a Segurança Digital da sua Empresa?</h3>
                   <p className="text-xl text-gray-400 mb-4">A segurança digital é essencial para proteger seus dados e informações pessoais. Engloba medidas como o uso de senhas fortes, atualização de software, instalação de antivírus, cuidado ao compartilhar informações online e evitar clicar em links suspeitos. A segurança digital previne ataques cibernéticos, roubo de identidade e perda de dados, garantindo a privacidade e a integridade das suas informações digitais. Mantenha-se atualizado sobre as ameaças online e adote práticas de segurança para uma experiência digital segura e tranquila.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
@@ -102,7 +102,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Backup na Nuvem e Local</div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2 text-yellow-100">Backup na Nuvem e Local</div>
                   <h3 className="h3 mb-3">Qual a importância do seu backup?</h3>
                   <p className="text-xl text-gray-400 mb-4">A integração do backup na nuvem oferece várias vantagens. Primeiramente, permite que você armazene seus dados em um local externo, protegendo-os contra perda ou danos físicos. Além disso, a nuvem oferece escalabilidade, permitindo que você aumente ou diminua o espaço de armazenamento conforme necessário. A recuperação de dados é rápida e fácil, com a capacidade de acessar seus arquivos de qualquer lugar e a qualquer momento. A segurança é aprimorada, pois a nuvem geralmente oferece criptografia e medidas de proteção robustas. Por fim, a integração na nuvem é conveniente e automatizada, poupando tempo e recursos valiosos.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
