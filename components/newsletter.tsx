@@ -30,11 +30,11 @@ export default function Newsletter() {
             {/* CTA form */}
             <form className="w-full lg:w-1/2">
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-                <input type="text" className="w-full appearance-none border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-black bg-white" placeholder="Nome Completo" required="required" />
+                <input type="text" className="w-full appearance-none border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-black bg-white" placeholder="Nome Completo"  />
                 </div>
                 <br />
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-              <input type="text" className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-black bg-white" id="phone" name="phone" placeholder="Digite o seu telefone (Wpp)" pattern="(\   ([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" title="Número de telefone precisa ser no formato (99) 9999-9999" required="required" />
+              <input type="text" className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-black bg-white" id="phone" name="phone" placeholder="Digite o seu telefone (Wpp)" pattern="(\   ([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" title="Número de telefone precisa ser no formato (99) 9999-9999"  />
               </div>
                 <br />
                 <a className="btn w-full text-purple-600 bg-purple-100 hover:bg-white shadow hover:bg-purple-400 text-black" href="#0">Solicitar Agendamento</a>
