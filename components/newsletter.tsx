@@ -53,8 +53,7 @@ export default function Newsletter() {
       
     // <section class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
     // <section class="bg-center bg-no-repeat bg-[url('https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif')] bg-gray-700 bg-blend-multiply bg-cover">
-    // <section className="bg-center bg-repeat bg-[url('https://img.freepik.com/fotos-premium/um-fundo-verde-com-um-mapa-do-mundo-e-as-palavras-dados_542670-13444.jpg')] bg-gray-700 bg-blend-multiply bg-cover">    
-    <section className="bg-center bg-repeat bg-[url('https://i.pinimg.com/originals/19/10/63/191063a8fc5a4da4eccdb6e406c52089.gif')] bg-gray-900 bg-blend-multiply bg-cover">    
+    <section className="bg-center bg-repeat bg-[url('https://img.freepik.com/fotos-premium/um-fundo-verde-com-um-mapa-do-mundo-e-as-palavras-dados_542670-13444.jpg')] bg-gray-700 bg-blend-multiply bg-cover">    
     <div className="px-4 mx-auto max-w-screen-x1 text-center py-24 lg:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">Fale com um Especialista</h1>
         <div className="flex flex-col p-5"></div>
