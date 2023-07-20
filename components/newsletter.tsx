@@ -53,8 +53,8 @@ export default function Newsletter() {
       
     // <section class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
     // <section class="bg-center bg-no-repeat bg-[url('https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif')] bg-gray-700 bg-blend-multiply bg-cover">
-    <section className="bg-center bg-repeat bg-[url('https://img.freepik.com/fotos-premium/um-fundo-verde-com-um-mapa-do-mundo-e-as-palavras-dados_542670-13444.jpg')] bg-gray-700 bg-blend-multiply bg-cover">
-          
+    // <section className="bg-center bg-repeat bg-[url('https://img.freepik.com/fotos-premium/um-fundo-verde-com-um-mapa-do-mundo-e-as-palavras-dados_542670-13444.jpg')] bg-gray-700 bg-blend-multiply bg-cover">    
+    <section className="bg-center bg-repeat bg-[url('https://i.pinimg.com/originals/19/10/63/191063a8fc5a4da4eccdb6e406c52089.gif')] bg-gray-900 bg-blend-multiply bg-cover">    
     <div className="px-4 mx-auto max-w-screen-x1 text-center py-24 lg:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">Fale com um Especialista</h1>
         <div className="flex flex-col p-5"></div>
@@ -65,11 +65,11 @@ export default function Newsletter() {
             WhatsApp
         
                 <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-
+{/* 
           <span className="relative flex h-3 w-3">
             <span className="animate-ping absolute inline-flex -ml-2 h-full w-full rounded-full bg-sky-100 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-0"></span>
-          </span>
+          </span> */}
             </a>
             {/* <a href="#" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
                 Learn more
