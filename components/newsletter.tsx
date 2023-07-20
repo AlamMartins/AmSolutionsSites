@@ -53,21 +53,21 @@ export default function Newsletter() {
       
     // <section class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
     // <section class="bg-center bg-no-repeat bg-[url('https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif')] bg-gray-700 bg-blend-multiply ">
-    <section class="bg-center bg-repeat bg-[url('https://i.pinimg.com/originals/be/f0/5e/bef05e397070e9ef000065c27778656c.gif')] bg-gray-700 bg-blend-multiply ">
-    <div class="px-4 mx-auto max-w-screen-x1 text-center py-24 lg:py-56">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">Fale com um Especialista</h1>
+    <section className="bg-center bg-repeat bg-[url('https://i.pinimg.com/originals/be/f0/5e/bef05e397070e9ef000065c27778656c.gif')] bg-gray-700 bg-blend-multiply ">
+    <div className="px-4 mx-auto max-w-screen-x1 text-center py-24 lg:py-56">
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">Fale com um Especialista</h1>
         <div className="flex flex-col p-5"></div>
         {/* <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Agende um diagnóstico com um Especialista</p> */}
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <a href="https://wa.me/5533991216305?text=Ol%C3%A1%2C+gostaria+de+Agendar+um+Atendimento.+" target="_blank" class="inline-flex justify-center items-center py-3 px-5  text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 ">
+        <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <a href="https://wa.me/5533991216305?text=Ol%C3%A1%2C+gostaria+de+Agendar+um+Atendimento.+" target="_blank" className="inline-flex justify-center items-center py-3 px-5  text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 ">
                  
             WhatsApp
         
-                <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
 
-          <span class="relative flex h-3 w-3">
-            <span class="animate-ping absolute inline-flex -ml-2 h-full w-full rounded-full bg-sky-100 opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-0"></span>
+          <span className="relative flex h-3 w-3">
+            <span className="animate-ping absolute inline-flex -ml-2 h-full w-full rounded-full bg-sky-100 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-0"></span>
           </span>
             </a>
             {/* <a href="#" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
