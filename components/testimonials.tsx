@@ -7,11 +7,11 @@ import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 export default function Testimonials() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-5xl mx-auto px-4 -mb-20 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
             <h2 className="h2 mb-4 ">Sobre AM Solutions</h2>
             <p className="text-xl text-gray-400">A AM Solutions é uma empresa dedicada à manutenção de computadores, focada em fornecer serviços de qualidade e eficiência. Seu lema é garantir o melhor atendimento aos clientes, oferecendo soluções confiáveis e rápidas para suas necessidades tecnológicas.</p>
           </div>
@@ -30,7 +30,7 @@ export default function Testimonials() {
               </div>
               <blockquote className="text-lg text-gray-400 grow">AM Solutions é altamente qualificada e comprometida com a qualidade. Com uma equipe especializada e um foco no atendimento ao cliente, você busca constantemente superar as expectativas. Está sempre atualizada com as últimas tendências e investe em treinamentos para oferecer soluções inovadoras. Seu objetivo é crescer no mercado, construindo relacionamentos duradouros com os clientes e estabelecendo uma reputação sólida. Com ética, transparência e excelência, sua empresa está pronta para se destacar e se tornar uma referência no setor.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Qualidade e Eficiência</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">AM Solutions</a>
+                <cite className="text-gray-200 not-italic">Qualidade e Eficiência</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#sx">AM Solutions</a>
               </div>
             </div>
           </div>
@@ -38,5 +38,6 @@ export default function Testimonials() {
         </div>
       </div>
     </section>
+
   )
 }
