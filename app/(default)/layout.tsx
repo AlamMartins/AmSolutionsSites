@@ -17,10 +17,11 @@ export default function DefaultLayout({
   useEffect(() => {
     AOS.init({
       once: true,
-      disable: 'phone',
+      // disable: 'phone',
       duration: 600,
       easing: 'ease-out-sine',
     })
+
   })
 
   return (
