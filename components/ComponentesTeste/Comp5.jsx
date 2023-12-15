@@ -26,7 +26,7 @@ const Comp5 = () => {
             </p>
             <p className="text-blue-200 ">Qualidade e Eficiência</p>
           </div>
-          <p className="mt-4 text-ms leading-relaxed text-white md:text-sm" data-aos="flip-left" data-aos-duration="2500">
+          <p className="mt-4 text-ms leading-relaxed text-white md:text-sm" data-aos="zoom-in" data-aos-duration="2500">
             {" "}
             Bem-vindo à AM Solutions, sua parceira confiável para acessibilidade e inovação. Com mais de 10 anos de experiência sólida no mercado, estamos comprometidos em oferecer soluções digitais e de infraestrutura que impulsionam o sucesso de diversas empresas. Contamos com uma equipe de profissionais altamente capacitados e especializados, prontos para fornecer o melhor suporte para o crescimento do seu negócio. Na AM Solutions, não apenas cumprimos as expectativas, mas as superamos, criando um caminho sólido e acessível para o futuro digital da sua empresa. Junte-se a nós e descubra como podemos transformar suas metas em realidade.
           </p>

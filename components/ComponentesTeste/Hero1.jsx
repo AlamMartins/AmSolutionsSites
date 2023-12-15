@@ -1,13 +1,15 @@
 export default function HeroImageSidewithSimpleHeader() {
-    return (
+    return ( 
       <>
         {/* Hero Section: Image Side with Simple Header */}
         <div className="relative overflow-hidden bg-white dark:bg-gray-900 dark:text-gray-100" >
 
+          
+
   
           {/* Hero Content */}
           <div className="container relative mx-auto flex flex-col space-y-16 px-4 py-16 text-center lg:flex-row lg:space-y-0 lg:px-8 lg:py-32 lg:text-left xl:max-w-7xl">
-            <div className="lg:flex lg:w-1/2 lg:items-center" data-aos="fade-right" data-aos-duration="2500">
+            <div className="lg:flex lg:w-1/2 lg:items-center" data-aos="fade-up" data-aos-duration="2500">
               <div>
                 {/* <div className="mb-2 inline-flex rounded border border-gray-200 bg-gray-100 px-2 py-1 text-sm font-medium leading-4 text-gray-800 dark:border-gray-600/50 dark:bg-gray-700/50 dark:text-gray-200">
                   v6.0 Latest Version
@@ -48,7 +50,8 @@ export default function HeroImageSidewithSimpleHeader() {
                 </div>
               </div>
             </div>
-            <div className="lg:ml-16 lg:flex lg:w-1/2 lg:items-center lg:justify-center" data-aos="fade-left" data-aos-duration="2500">
+
+            <div className="lg:ml-16 lg:flex lg:w-1/2 lg:items-center lg:justify-center" data-aos="fade-down" data-aos-duration="2500">
               <div className="relative mx-5 lg:w-96">
                 <div className="bg-tranparent absolute left-0 top-0 -ml-20 -mt-16 h-40 w-40 rounded-full border border-blue-200 dark:border-blue-900 lg:h-72 lg:w-72" />
                 <div className="bg-tranparent absolute left-0 top-0 -ml-14 -mt-20 h-40 w-40 rounded-full border border-blue-100 dark:border-blue-950 lg:h-72 lg:w-72" />
@@ -68,6 +71,7 @@ export default function HeroImageSidewithSimpleHeader() {
           {/* END Hero Content */}
         </div>
         {/* END Hero Section: Image Side with Simple Header */}
+        
       </>
     );
   }

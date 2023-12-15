@@ -3,10 +3,10 @@ import React from 'react'
 const Comp4 = () => {
   return (
 
-        <section className="min-h-screen bg-gradient-to-t from-blue-600 via-blue-800 to-blue-900 dark:from-green-600 dark:via-[#082b644f] dark:to-gray-900 ">
+        <section className="min-h-screen bg-gradient-to-t from-blue-600 via-blue-800 to-blue-900 dark:from-slate-600 dark:via-[#082b644f] dark:to-gray-900 ">
   <div className="container flex flex-col min-h-screen px-6 py-12 mx-auto">
     <div className="flex-1 lg:flex lg:items-center lg:-mx-6" >
-      <div className="text-white lg:w-1/2 lg:mx-6" data-aos="flip-up" data-aos-duration="1500" data-aos-easing="ease-in-sine">
+      <div className="text-white lg:w-1/2 lg:mx-6" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-sine">
         <h1 className="text-2xl font-semibold capitalize lg:text-3xl">
           Contato
         </h1>
@@ -152,7 +152,7 @@ const Comp4 = () => {
           </div>
         </div>
       </div>
-      <div className="mt-8 lg:w-1/2 lg:mx-6" data-aos="flip-down" data-aos-duration="1500" data-aos-easing="ease-in-sine">
+      <div className="mt-8 lg:w-1/2 lg:mx-6" data-aos="zoom-out" data-aos-duration="1500" data-aos-easing="ease-in-sine">
         <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
           <h1 className="text-xl font-medium text-gray-700 dark:text-gray-200">
             Solicitar Contato
